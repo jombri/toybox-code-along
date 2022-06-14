@@ -21,7 +21,7 @@
 	<!-- Navigation -->
 	<nav class="navBar">
 		<div class="wrapper">
-			<!-- Slide Out Menu -->
+			<!-- Slide Out Menu Button-->
 			<input type="checkbox" id="openSideMenu">
 			<label for="openSideMenu">
 				<img src="./assets/menu-button.svg" alt="Menu Button">
@@ -33,7 +33,7 @@
 
 				<!-- Menu Content -->
 				<nav>
-					<ul>
+					<ul class="mainMenu">
 						<li>
 							<a href="">Shop</a>
 						</li>
@@ -59,16 +59,21 @@
 				<h1>Toybox</h1>
 			</a>
 
-			<!-- Search/Cart, 3 icons together on right side -->
+			<!-- Search/Cart, 3 icons grouped on right side -->
+
 			<div class="searchCart">
-				Search
+				<button class="menuIcon">
+					<img src="./assets/search.svg" alt="Search Icon">
+				</button>
+
+				<a href="#" class="bag">
+					<img src="./assets/shop-bag.svg" alt="">
+				</a>
+
+				<div class="counter">
+					<p>0</p>
+				</div>
 			</div>
-			<button class="menuIcon">
-				<img src="./assets/search.svg" alt="Search Icon">
-			</button>
-			<img src="./assets/shop-bag.svg" alt="">
-
-
 		</div>
 	</nav>
 
@@ -83,7 +88,7 @@
 				<h3>Handcrafted for kids</h3>
 				<h2>Go on, let them play with wooden blocks.</h2>
 				<p>Sed gravida eu ac aliquam pellentesque pharetra pharetra. Augue nam facilisis tristiqur
-				turpis iaculis pulvinar tellus</p>
+				turpis iaculis pulvinar tellus.</p>
 				<a href="#shop" class="shopButton">Shop All</a>
 			</div> <!-- END TextContainer -->
 		</div>
@@ -116,14 +121,14 @@
 						</li>
 						<li class="items itemThree">
 							<a href="#">
-								<img src="./assets/dino-trio.jpg" alt="Three wooden dinosauraus toys for kids">
+								<img src="./assets/dino-trio.jpg" alt="Three wooden dinosaur toys for kids">
 								<h4>Dinos</h4>
 								<p>Meet these prehistoric pals</p>
 							</a>
 						</li>
 						<li  class="items itemFour">
 							<a href="#">
-								<img src="./assets/sale.jpg" alt="a kid playing with two trojan horse toys">
+								<img src="./assets/sale.jpg" alt="A toddler pulling two wooden trojan horse toys">
 								<h4>Sale</h4>
 								<p>Act quickly and grab these bargains</p>
 							</a>
@@ -140,7 +145,9 @@
 				<div class="playContent">
 					<h3>Learning through doing</h3>
 					<h2>Let them Play</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, saepe quod autem inventore consequuntur ad totam porro odio soluta iusto voluptatum ipsam vero eos nihil ratione eum quaerat quo voluptatem.</p>
+					<p>Bauris eget lacus, amet mollis felis, sed posuere odio.
+					Justo purus orci ultricies et. Sit etiam porta sed tellus
+					Cattis pellentesque felis tristique get ours feugiat massa.</p>
 					<a href="#" class="aboutButton">Learn About Us</a>
 				</div>
 			</div>
@@ -159,6 +166,7 @@
 				<!-- FooterNAV container -->
 				<div class="footerNav">
 					<nav>
+						<!-- Footer Shop List -->
 						<ul class="footerShop">
 							<li>
 								<h5>Shop</h5>
@@ -177,7 +185,7 @@
 							</li>
 						</ul> <!-- END Footer Shop List -->
 
-
+						<!-- Footer About List -->
 						<ul class="footerAbout">
 							<li>
 								<h5>About</h5>
@@ -247,7 +255,6 @@
 			</div> <!-- END Social -->
 		</div> <!-- END Footer Wrapper  -->
 	</footer>
-
 
 </body>
 </html>
